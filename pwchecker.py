@@ -7,7 +7,6 @@ from colorama import Fore, Style, init
 # Initialize colorama for cross-platform support
 init(autoreset=True)
 
-
 # Load common passwords from a text file
 def load_common_passwords(filename="common_passwords.txt") -> set:
     """
