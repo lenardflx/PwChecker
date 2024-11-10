@@ -10,14 +10,14 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "pwchecker=pwchecker:main",
+            "pwchecker=pwchecker.pwchecker:main",
         ],
     },
     author="Lenard Felix",
     description="A CLI tool to check password security and if it has been pwned.",
-    long_description=open("README.md").read(),
+    long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/pwchecker",
+    url="https://github.com/lenardflx/PwChecker",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

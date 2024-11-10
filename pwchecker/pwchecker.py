@@ -139,7 +139,7 @@ class PasswordChecker:
         # Output warnings first, followed by passes
         for warning in warnings:
             self.print_warning(warning)
-        if warnings:
+        if warnings and passes:
             print("---")
         for pass_message in passes:
             self.print_pass(pass_message)
